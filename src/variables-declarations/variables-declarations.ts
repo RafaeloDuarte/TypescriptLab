@@ -1,12 +1,13 @@
 function initGame (init:boolean){
-    var name = 'Rafaras';
+    const name = 'Rafaras';
+    let city = 'Em Londres amanhã!';
 
     if(init){
-        var city = ' São Paulo HJ.';
+        city = ' São Paulo HJ!';
     }
 
     console.log(`${name} está em ${city}`);
 
 }
 
-initGame(true);
+initGame(false);
